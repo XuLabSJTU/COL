@@ -34,7 +34,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE)) {
 BiocManager::install(c("Biostrings","liftOver","rtracklayer", "BSgenome","GenomeInfoDb","GenomicRanges","IRanges"))
 
 # Install required CRAN packages
-install.packages(c("stringr","devtools",”doParallel”,”foreach”,”parallel”,”data.table”))
+install.packages(c("stringr","devtools","doParallel","foreach","parallel","data.table"))
 
 # Install and load COL
 require("devtools")
